@@ -116,3 +116,10 @@ local Button = MainTab:CreateButton({
    G:fetchAndExecute("https://raw.githubusercontent.com/Bwhw827g29wh/Scripts/refs/heads/main/Princess%20tycoon%20new.lua")
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Reverse/Rewind",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/AKadminlol/ReversebyAK/refs/heads/main/holdCtoReverse"))()
+   end,
+})
